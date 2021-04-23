@@ -1,18 +1,18 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-			{
-				"name": "Test via npm",
-				"request": "launch",
-				"runtimeArgs": [
-					"test",
-					"--cucumberOpts.tagExpression='@homepage'"
-				],
-				"runtimeExecutable": "npm",
-				"skipFiles": [
-					"<node_internals>/**"
-				],
-				"type": "pwa-node"
-			}
-    ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Test via npm",
+			"request": "launch",
+			"runtimeArgs": [
+				"test",
+				"--cucumberOpts.tagExpression='@homepage'"
+			],
+			"runtimeExecutable": "npm",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"type": "pwa-node"
+		}
+	]
 }
