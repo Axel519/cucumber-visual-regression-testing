@@ -1,0 +1,14 @@
+# Allure Reports dir
+allure-results
+
+# Node Packages
+node_modules
+package-lock.json
+
+# Typescript transpiled code
+tsrc
+dist
+
+# Output files
+.tmp
+baseline

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["es5", "es6", "DOM"],
+    "target": "es6",
+		"declaration": true,
+		"emitDeclarationOnly": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"],
+    },
+    "types": [
+			"node",
+			"@wdio/sync",
+			"@wdio/cucumber-framework",
+			"@wdio/devtools-service",
+			"expect-webdriverio",
+			"wdio-image-comparison-service"
+		]
+  },
+  "include": [
+		"./**/*",
+		"./test/**/*.ts",
+		"./src/**/*.ts"
+	],
+	"exclude": [
+		"./dist/**/*"
+	]
+}
