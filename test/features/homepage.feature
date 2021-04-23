@@ -5,7 +5,7 @@ Feature: Enroute Systems Homepage
 
 		Given I open the homepage of Enroute
 		When 	I want to see the image of <enroute_solution>
-		Then 	I should verify that the image: <enroute_solution> is the same
+		Then 	I should verify that the image: <enroute_solution> is the same as baseline image
 
 			Examples:
 			| enroute_solution  |

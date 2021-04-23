@@ -24,7 +24,7 @@ When(/^I want to see the image of (.+)$/, (img: string) => {
 	scrollIntoViewAndSaveElement(solutionImages[img], img);
 });
 
-Then(/^I should verify that the image: (.+) is the same$/, (img: string) => {
+Then(/^I should verify that the image: (.+) is the same as baseline image$/, (img: string) => {
 	scrollIntoViewAndCheckElement(solutionImages[img], img)
 });
 
