@@ -5,7 +5,7 @@
 			"name": "Test via npm",
 			"request": "launch",
 			"runtimeArgs": [
-				"test",
+				"run test:visual-regression",
 				"--cucumberOpts.tagExpression='@homepage'"
 			],
 			"runtimeExecutable": "npm",
