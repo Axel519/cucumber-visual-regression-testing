@@ -17,7 +17,6 @@ exports.config = {
 			'test/features/**/*.feature'
 	],
 	exclude: [
-			// 'path/to/excluded/files'
 	],
 	maxInstances: 10,
 	capabilities: [{
@@ -50,7 +49,7 @@ exports.config = {
 								fontSize: 18,
 						},
 						line:{
-								color: '#ff221a', // hex-code or for example words like `red|black|green`
+								color: '#ff221a',
 								width: 3,
 						},
 				}
